@@ -38,6 +38,10 @@ public class BruteForceApproach {
 	}
 	
 	public static void main(String[] args) {
+		int a[]={1,2,3,4,5};
+		int i=1,j=10;
+		a[i++]=j++;
+		System.out.println(a[1]+" "+i+" "+j);
 		System.out.println(matchPattern("mississippi","pi"));
 	}
 
