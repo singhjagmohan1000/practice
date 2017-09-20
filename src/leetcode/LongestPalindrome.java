@@ -46,9 +46,9 @@ public class LongestPalindrome {
 	        
 	    }
 	 public static void main(String[] args) {
-		 System.out.println(isPalindrome("baba"));
-		 System.out.println(isPalindrome("babab"));
-		 System.out.println(isPalindrome("baab"));
+//		 System.out.println(isPalindrome("baba"));
+//		 System.out.println(isPalindrome("babab"));
+//		 System.out.println(isPalindrome("baab"));
 		System.out.println(longestPalindrome("babadada"));
 		System.out.println(longestPalindrome("abcd"));
 		System.out.println(longestPalindrome("ccc"));
