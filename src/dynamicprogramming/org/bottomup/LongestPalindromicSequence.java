@@ -14,6 +14,8 @@ public class LongestPalindromicSequence {
             dp[i][i]=1;
         }
         int j=0;
+        int start=0;
+        int end=0;
         for(int k=2;k<=length;k++){
             for(int i=0;i<length-k+1;i++){
                 j=i+k-1;
@@ -30,6 +32,7 @@ public class LongestPalindromicSequence {
                 }
             }
         }
+
         return dp[0][length-1];
     }
 
@@ -37,7 +40,7 @@ public class LongestPalindromicSequence {
 
         String a="turboventilator";
         String b="bbabcbcab";
-        System.out.print(lps(a));
+        System.out.print(lps(b));
 
 
     }
